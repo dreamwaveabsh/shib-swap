@@ -1,0 +1,134 @@
+@font-face {
+  font-family: 'LabGrotesque';
+  src: url('./Fonts/LabGrotesque-Black.eot'), url('./Fonts/LabGrotesque-Bold.eot'),
+    url('./Fonts/LabGrotesque-Light.eot'), url('./Fonts/LabGrotesque-Medium.eot');
+  src: url('./Fonts/LabGrotesque-Black.woff') format('woff'), url('./Fonts/LabGrotesque-Bold.woff') format('woff'),
+    url('./Fonts/LabGrotesque-Light.woff') format('woff'), url('./Fonts/LabGrotesque-Medium.woff') format('woff');
+}
+
+#root {
+  min-height: 100vh;
+  background-color: #060915;
+  font-family: 'LabGrotesque', sans-serif;
+}
+
+.img-blur {
+  filter: blur(30px);
+}
+.img-blur-2 {
+  filter: blur(2px);
+}
+
+body {
+  overflow-x: hidden;
+  font-family: 'LabGrotesque', sans-serif;
+}
+
+* {
+  font-family: 'LabGrotesque', sans-serif;
+}
+
+.kQrlmN {
+  background-image: linear-gradient(212deg, rgba(228, 14, 207, 1) 38%, rgba(33, 212, 253, 1) 100%);
+}
+
+.bBmkCt {
+  padding: 8px 20px;
+  border-radius: 9px;
+  background-color: white;
+  color: black;
+  display: flex;
+  align-items: center;
+}
+
+.bBmkCt.ACTIVE {
+  color: white;
+  background-image: linear-gradient(212deg, rgba(228, 14, 207, 1) 38%, rgba(33, 212, 253, 1) 100%);
+}
+
+.glTmyx img {
+  width: 40px;
+}
+
+.iLhLKm {
+  background-color: white;
+  border-radius: 16px;
+  padding: 20px;
+}
+
+.dWtwMx {
+  background-image: linear-gradient(212deg, rgba(228, 14, 207, 1) 38%, rgba(33, 212, 253, 1) 100%);
+  border: none;
+}
+
+.blKQvc {
+  border: 1px solid gray;
+  color: black;
+}
+
+.blKQvc:hover {
+  border-color: gray;
+}
+
+.dPcxZo {
+  background-image: linear-gradient(212deg, rgba(228, 14, 207, 1) 38%, rgba(33, 212, 253, 1) 100%);
+}
+
+.jLdYvK:active,
+.jLdYvK:focus,
+.jLdYvK:active {
+  background-image: linear-gradient(212deg, rgba(228, 14, 207, 1) 38%, rgba(33, 212, 253, 1) 100%);
+  border: none;
+  box-shadow: none;
+  color: white;
+}
+
+.hUEdoo {
+  background-image: linear-gradient(212deg, rgba(228, 14, 207, 1) 38%, rgba(33, 212, 253, 1) 100%);
+  border: none;
+}
+
+.hUEdoo:active,
+.hUEdoo:hover,
+.hUEdoo:focus {
+  box-shadow: none;
+  border: none;
+}
+
+.sc-TOsTZ {
+  border-radius: 10px;
+}
+
+.dWtwMx:active,
+.dWtwMx:hover,
+.dWtwMx:focus {
+  box-shadow: none;
+}
+
+.sc-eInJlc input,
+.css-10ob8xa,
+.sc-bEjcJn,
+.hyzCmX,
+.sc-ePZHVD,
+.fRttic,
+.sc-hzNEM,
+.sc-TOsTZ,
+.kNokQO input {
+  font-family: 'LabGrotesque', sans-serif;
+}
+
+@media screen and (max-width: 768px) {
+  .bBmkCt {
+    padding: 5px 12px;
+  }
+  .img-mobile-hidden {
+    display: none;
+  }
+  .img-mobile-astro {
+    width: 300px !important;
+    top: 50px !important;
+  }
+  .bNuQZd {
+    margin-top: 75px;
+  }
+}
